@@ -1,0 +1,834 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website For Minor Project</title>
+    <link rel="icon" type="image" href="image/favicon_io/favicon-16x16.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <style>
+      /* Default light mode styles */
+      body {
+        background-color: white;
+        color: black;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      /* Dark mode styles */
+      body.dark-mode {
+        background-color: black;
+        color: white;
+      }
+
+      /* Button styles */
+      .toggle-button {
+        margin: 20px;
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        background-color: rgb(15, 11, 11);
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="Home">
+      <nav>
+        <div class="logo">
+          <img src="image/310-3101558_food-circles-logo-sample-logo-for-restaurant-removebg-preview (1).png" />
+        </div>
+
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Menu">Menu</a></li>
+          <li><a href="#Gallary">Gallary</a></li>
+          <li><a href="#Review">Review</a></li>
+          <li><a href="#Order">Order</a></li>
+        </ul>
+
+        <div class="icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-heart"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+
+        <button class="toggle-button" onclick="toggleMode()">dark/light</button>
+      </nav>
+
+      <div class="main">
+        <div class="men_text">
+          <h1>Get Fresh<span>Food</span><br />in a Easy Way</h1>
+        </div>
+
+        <div class="main_image">
+          <img src="image/burger-transparent-free-png (1).webp" />
+        </div>
+      </div>
+
+      <p>
+        Welcome to our food blog Experience the perfect blend of flavor,
+        ambiance, and hospitality at my restaurant . Nestled in the heart of
+        UDAIPUR , our restaurant offers a unique dining experience that caters
+        to every palate. Indulge in a menu crafted with the freshest ingredients
+        and inspired by [cuisine style or specialty], where every dish tells a
+        story of passion and culinary artistry. From intimate dinners to vibrant
+        gatherings, our inviting atmosphere is the ideal backdrop for creating
+        unforgettable memories. Whether you’re here for a quick bite, a
+        leisurely meal, or a special occasion, our dedicated team is here to
+        ensure your visit is nothing short of exceptional. Discover the taste of
+        excellence at My Restaurant – where every meal is a celebration.
+      </p>
+
+      <div class="main_btn">
+        <a href="#">Order Now</a>
+        <i class="fa-solid fa-angle-right"></i>
+      </div>
+    </section>
+
+    <!--About-->
+
+    <div class="about" id="About">
+      <div class="about_main">
+        <div class="image">
+          <img src="image/plate-chinese-food-with-rice-pork-chops_854441-256.jpg" />
+        </div>
+
+        <div class="about_text">
+          <h1><span>About</span>Us</h1>
+          <h3>Why Choose us?</h3>
+          <p class="why">
+           <strong>Exceptional Quality:</strong>  Every dish is crafted with the freshest, finest
+            ingredients to ensure mouthwatering flavors in every bite.
+            <strong>Unique Ambiance:</strong> Whether you're seeking a cozy spot for an intimate dinner
+            or a vibrant space for a celebration, our welcoming atmosphere is
+            perfect for every occasion. <strong>Outstanding Service:</strong> Our friendly and
+            attentive staff go above and beyond to make your visit
+            unforgettable.<strong> Authentic Flavors:</strong> From traditional recipes to
+            innovative creations, our menu is a celebration of culinary passion
+            and expertise. <strong>Local Love:</strong> We take pride in being a part of the
+            community, supporting local producers, and offering a warm,
+            neighborhood feel.
+          </p>
+        </div>
+      </div>
+
+      <a href="#" class="about_btn">Order Now</a>
+    </div>
+
+    <!--Menu-->
+
+    <div class="menu" id="Menu">
+      <h1>Our<span>Menu</span></h1>
+
+      <div class="menu_box">
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (2).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>PIZZA</h2>
+            <p>
+                our pizzas are crafted with hand-stretched dough, premium ingredients, and baked to golden perfection.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/pasta.jpg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>PASTA</h2>
+            <p>
+                Freshly made, rich in flavor, and served with love, our pasta dishes are the ultimate comfort food experience.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/hot_dog_recept.jpg.crop_display.jpg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>HOT DOG</h2>
+            <p>
+                Juicy, grilled to perfection, and loaded with your favorite toppings—our hot dogs are a flavor-packed treat you’ll love!
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (8).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>DRINKS</h2>
+            <p>
+                Our juices are bursting with natural flavors, made from the freshest fruits to energize and delight your day!
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (7).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>HAKKA NOODLES</h2>
+            <p>
+                Wok-tossed noodles with a medley of vegetables and savory Asian spices.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (4).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>CAKES</h2>
+            <p>
+                Moist, decadent layers of sweetness for every occasion.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (5).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>SANDWICH</h2>
+            <p>
+                Freshly baked bread stuffed with wholesome fillings and a burst of flavors.
+
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/delicious-chicken-biryani-isolated-on-transparent-background-png.webp" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>BIRYANI</h2>
+            <p>
+                Aromatic basmati rice cooked with spices and tender pieces of meat or veggies
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/8a2dce52b747f46a0558383d70252dbd.jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>DONUTS</h2>
+            <p>
+                Soft, fluffy rings of joy, glazed or filled with irresistible sweetness.
+
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/tasty-colorful-ice-cream-cup-with-syrups-and-fruits-on-transparent-background-png.webp" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>ICE CREAM</h2>
+            <p>
+                Creamy, chilled delight in a variety of mouthwatering flavors.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/th (6).jpeg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>MOMOS</h2>
+            <p>
+                Steamed or fried dumplings filled with juicy, spiced stuffing.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+
+        <div class="menu_card">
+          <div class="menu_image">
+            <img src="image/Paneer-Tikka-_LR.jpg" />
+          </div>
+
+          <div class="small_card">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <div class="menu_info">
+            <h2>PANEER TIKKA</h2>
+            <p>
+                Marinated cottage cheese cubes grilled to smoky perfection.
+            </p>
+            <h3>$20.00</h3>
+            <div class="menu_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <a href="#" class="menu_btn">Order Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Gallary-->
+
+    <div class="gallary" id="Gallary">
+      <h1>Our<span>Gallary</span></h1>
+
+      <div class="gallary_image_box">
+        <div class="gallary_image">
+          <img src="image/pexels-photo-4109111.jpeg" />
+
+          <h3>Food</h3>
+          <p>
+             Wood-fired crust with fresh mozzarella, basil, and tomato sauce. Silky fettuccine drenched in a rich and creamy white sauce. A comforting perfect for any occasion.
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+
+        <div class="gallary_image">
+          <img src="image/pexels-photo-4518653.webp" />
+
+          <h3>Food</h3>
+          <p>
+            Chunks of cottage cheese marinated in spices and grilled to smoky perfection. A popular appetizer that's soft inside and crispy outside.
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+
+        <div class="gallary_image">
+          <img src="image/pexels-photo-27969812.webp" />
+
+          <h3>Food</h3>
+          <p>
+            Silky fettuccine drenched in a rich and creamy white sauce. A comforting Italian classic perfect for any occasion.
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+
+        <div class="gallary_image">
+          <img src="image/free-photo-of-a-person-holding-a-slice-of-pizza-with-greens-on-top.jpeg" />
+
+          <h3>Food</h3>
+          <p>
+            A perfectly baked crust loaded with succulent chicken, spicy pepperoni, and smoky sausages. Topped with gooey mozzarella and zesty tomato sauce for a meaty delight in every bite.
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+
+        <div class="gallary_image">
+          <img src="image/pexels-photo-10464867.jpeg" />
+
+          <h3>Food</h3>
+          <p>
+            Freshly rolled delights featuring the finest seafood.A comforting perfect for any occasion.
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+
+        <div class="gallary_image">
+          <img src="image/pexels-photo-6064815.jpeg" />
+
+          <h3>Food</h3>
+          <p>
+            Stir-fried noodles tossed with fresh vegetables, savory sauces, and a hint of spice. A perfect fusion of Chinese flavors with an Indian twist.
+
+          </p>
+          <a href="#" class="gallary_btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Review-->
+
+    <div class="review" id="Review">
+      <h1>Customer<span>Review</span></h1>
+
+      <div class="review_box">
+        <div class="review_card">
+          <div class="review_profile">
+            <img src="image/review_1.jpeg" />
+          </div>
+
+          <div class="review_text">
+            <h2 class="name"> John M. </h2>
+
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+                "The food at this restaurant is simply amazing! The pizza was perfectly cooked with fresh ingredients, and the service was outstanding. The ambiance made it a perfect night out. Highly recommend!"
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <div class="review_profile">
+            <img src="image/review_2.jpeg" />
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">Michael T. </h2>
+
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+                "If you're looking for a place that combines great food and a cozy atmosphere, look no further. The variety on the menu is impressive, and everything we've tried so far has been delicious. Highly recommend for anyone in the area!"
+
+
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <div class="review_profile">
+            <img src="image/review_3.jpeg" />
+          </div>
+
+          <div class="review_text">
+            <h2 class="name">John Deo</h2>
+
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+                "Amazing experience at Your restaurant ! The food was delicious, especially the pizza, and the atmosphere was warm and inviting. The staff made us feel right at home, and we can't wait to return. Highly recommend for anyone looking for great food and service!"
+            </p>
+          </div>
+        </div>
+
+        <div class="review_card">
+          <div class="review_profile">
+            <img src="image/review_4.jpeg" />
+          </div>
+
+          <div class="review_text">
+            <h2 class="name"> Laura S.</h2>
+
+            <div class="review_icon">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+
+            <div class="review_social">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+
+            <p>
+                "Absolutely loved dining here! The pizza was crispy and flavorful, and the service was top-notch. A cozy spot with a great atmosphere. Highly recommend it for any occasion!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Order-->
+
+    <div class="order" id="Order">
+      <h1><span>Order</span>Now</h1>
+
+      <div class="order_main">
+        <div class="order_image">
+          <img src="image/order_image.png" />
+        </div>
+
+        <form action="#">
+          <div class="input">
+            <p>Name</p>
+            <input type="text" placeholder="you name" />
+          </div>
+
+          <div class="input">
+            <p>Email</p>
+            <input type="email" placeholder="you email" />
+          </div>
+
+          <div class="input">
+            <p>Number</p>
+            <input placeholder="you number" />
+          </div>
+
+          <div class="input">
+            <p>How Much</p>
+            <input type="number" placeholder="how many order" />
+          </div>
+
+          <div class="input">
+            <p>You Order</p>
+            <input placeholder="food name" />
+          </div>
+
+          <div class="input">
+            <p>Address</p>
+            <input placeholder="you Address" />
+          </div>
+
+          <a href="#" class="order_btn">Order Now</a>
+        </form>
+      </div>
+    </div>
+
+    <!--Team-->
+
+    <div class="team">
+      <h1>Our<span>Team</span></h1>
+
+      <div class="team_box">
+        <div class="profile">
+          <img src="image/cute-chef-little-boy-cartoon-vector.jpg" />
+
+          <div class="info">
+            <h2 class="name">Chef Ethen</h2>
+            <p class="bio">
+                Crafting flavors with love and precision, brings art to every plate.
+            </p>
+
+            <div class="team_icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img src="image/AibKb6kzT.jpg" />
+
+          <div class="info">
+            <h2 class="name">Chef Jack</h2>
+            <p class="bio">
+                Dedicated to perfection, redefines gourmet dining with every meal.
+            </p>
+
+            <div class="team_icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img src="image/vector-cartoon-smiling-chef-character (1).jpg" />
+
+          <div class="info">
+            <h2 class="name">Chef Christo</h2>
+            <p class="bio">
+                Blending tradition and innovation to create unforgettable tastes.
+            </p>
+
+            <div class="team_icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile">
+          <img src="image/cute-chef-kid-boy-cartoon-character-vector.jpg" />
+
+          <div class="info">
+            <h2 class="name">Chef Evn</h2>
+            <p class="bio">
+                Passionate about turning fresh ingredients into mouthwatering masterpieces.
+            </p>
+
+            <div class="team_icon">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+
+    <footer>
+      <div class="footer_main">
+        <div class="footer_tag">
+          <h2>Location</h2>
+          <p>Sri Lanka</p>
+          <p>USA</p>
+          <p>India</p>
+          <p>Japan</p>
+          <p>Italy</p>
+        </div>
+
+        <div class="footer_tag">
+          <h2>Quick Link</h2>
+          <p>Home</p>
+          <p>About</p>
+          <p>Menu</p>
+          <p>Gallary</p>
+          <p>Order</p>
+        </div>
+
+        <div class="footer_tag">
+          <h2>Contact</h2>
+          <p>+94 12 3456 789</p>
+          <p>+94 25 5568456</p>
+          <p>johndeo123@gmail.com</p>
+          <p>foodCircle123@gmail.com</p>
+        </div>
+
+        <div class="footer_tag">
+          <h2>Our Service</h2>
+          <p>Fast Delivery</p>
+          <p>Easy Payments</p>
+          <p>24 x 7 Service</p>
+        </div>
+
+        <div class="footer_tag">
+          <h2>Follows</h2>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+      </div>
+
+      <p class="end">
+        Design by<span
+          ><i class="fa-solid fa-face-grin"></i> ANJALI VAISHNAV</span
+        >
+      </p>
+    </footer>
+
+    <script>
+      function toggleMode() {
+        // Toggle the "dark-mode" class on the body element
+        document.body.classList.toggle("dark-mode");
+      }
+    </script>
+  </body>
+</html>
